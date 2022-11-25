@@ -16,6 +16,8 @@ After that go on `http://localhost:3000/`to see the result.
 To check our databases and tables on the terminal you can go on the sql console with : `mysql -u root`.
 To display databases type `SHOW DATABASES;`, and `USE <database_name>;` and now you just need to display the table you want with : `DESCRIBE <table_name>`.
 
+# .NET Samples
+
 To experiment our API's endpoint you can run `dotnet run` and in your browser or in postamn try some of these addresses :
 
 * `https://localhost:7234/api/interventions`to retrieve interventions status
