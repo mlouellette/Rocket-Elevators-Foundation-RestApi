@@ -18,7 +18,7 @@ To display databases type `SHOW DATABASES;`, and `USE <database_name>;` and now 
 
 # .NET Samples
 
-To experiment our API's endpoint you can run `dotnet run` and in your browser or in postamn try some of these addresses :
+To experiment our API's endpoint you can run `dotnet run` and in your browser or in Postman try some of these addresses :
 
 * `https://localhost:7234/api/interventions`to retrieve interventions status
 * `https://localhost:7234/api/interventions/1/Status/InProgress` to change the status from 'Pending' to InProgress and the tart time will match the time now.
