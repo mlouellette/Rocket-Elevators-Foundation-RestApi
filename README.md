@@ -2,7 +2,7 @@
 
 # Description
 Rocket Elevators Website using the Ruby on rails framework. This website is connected to mysql database, user login and quote form connected. 
-The administrator of the page have access to a back office page that displays the employees section and quote form input results. We implemented some API's that retrieve status of batteries, column, elevators or that allows to change the status.
+The administrator of the page have access to a back office page that displays the employees section and quote form input results. We implemented some API's that retrieve status of batteries, column, elevators, Interventions or that allows to change the status.
 
 Using C# .NET RESTAPI
 
@@ -15,9 +15,6 @@ After that go on `http://localhost:3000/`to see the result.
 
 To check our databases and tables on the terminal you can go on the sql console with : `mysql -u root`.
 To display databases type `SHOW DATABASES;`, and `USE <database_name>;` and now you just need to display the table you want with : `DESCRIBE <table_name>`.
-
-Here is an example :
-![alt text](https://github.com/Crap-cloud/Rocket_Elevators_RestAPI/blob/main/image.pngraw=true)
 
 To experiment our API's endpoint you can run `dotnet run` and in your browser or in postamn try some of these addresses :
 
