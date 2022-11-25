@@ -1,15 +1,10 @@
-# Rocket_Elevators_Information_System
+# Rocket-Elevators-Foundation-RestApi
 
 # Description
 Rocket Elevators Website using the Ruby on rails framework. This website is connected to mysql database, user login and quote form connected. 
 The administrator of the page have access to a back office page that displays the employees section and quote form input results. We implemented some API's that retrieve status of batteries, column, elevators or that allows to change the status.
 
-Using HTML / CSS / BOOTSTRAP / JAVASCRIPT / RUBY ON RAILS FRAMEWORK
-
-Ruby's version : 2.7.6
-Rails version : 5.2.7.1
-
-To ensure that everything is in order, you need to download ruby and rails version above, and also mysql and postreSQL. You can also download DBeaver community to have a good look on databases and Postman to get outputs from our API's.
+Using C# .NET RESTAPI
 
 # Command to use
 
@@ -25,17 +20,16 @@ Here is an example :
 ![alt text](https://github.com/Crap-cloud/Rocket_Elevators_RestAPI/blob/main/image.pngraw=true)
 
 To experiment our API's endpoint you can run `dotnet run` and in your browser or in postamn try some of these addresses :
-* `https://localhost:7235/api/batteries`to retrieve batteries status
-* `https://localhost:7235/api/batteries/1/status/Inactive` to change the status to 'Inactive' of the battery with id = 1 
-* `https://localhost:7235/api/elevators/status` retrieving a list of Elevators that are not in operation at the time of the request (so equal to 'Inactive')
-* `https://localhost:7235/api/buildings/intervention` retrieving a list of Buildings that contain at least one battery, column or elevator requiring intervention
-* `https://localhost:7235/api/leads/pastdays` retrieving a list of Leads created in the last 30 days who have not yet become customers
+
+* `https://localhost:7234/api/interventions`to retrieve interventions status
+* `https://localhost:7234/api/interventions/1/Status/InProgress` to change the status from 'Pending' to InProgress and the tart time will match the time now.
+* `https://localhost:7234/api/interventions/1/Status/Completed` to change the status from 'InProgress' to Completed and the End time will match the time now.
 
 (If you have no result it could be possible that in your database you are not meeting the conditions)
 
 # Video's Link
 
-https://www.youtube.com/watch?v=3ajNUDaZ4q0&ab_channel=MichaelOuellette
+
 
 
 
