@@ -21,8 +21,8 @@ To display databases type `SHOW DATABASES;`, and `USE <database_name>;` and now 
 To experiment our API's endpoint you can run `dotnet run` and in your browser or in Postman try some of these addresses :
 
 * GET : `https://localhost:7234/api/interventions`to retrieve interventions status
-* PUT `https://localhost:7234/api/interventions/1/Status/InProgress` to change the status from 'Pending' to InProgress and the tart time will match the time now.
-* PUT `https://localhost:7234/api/interventions/1/Status/Completed` to change the status from 'InProgress' to Completed and the End time will match the time now.
+* PUT : `https://localhost:7234/api/interventions/1/Status/InProgress` to change the status from 'Pending' to InProgress and the tart time will match the time now.
+* PUT : `https://localhost:7234/api/interventions/1/Status/Completed` to change the status from 'InProgress' to Completed and the End time will match the time now.
 
 (If you have no result it could be possible that in your database you are not meeting the conditions)
 
